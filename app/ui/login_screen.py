@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 from database.db_helper import create_user, authenticate_user
 from app.ui.user_window import open_user_window
-from app.ui.admin_window import open_admin_window  # ✅ NEW
+from app.ui.admin_window import open_admin_window
 
 class LoginScreen:
     def __init__(self, root):
@@ -54,7 +54,7 @@ class LoginScreen:
 
     def admin_login(self):
         entered_password = self.admin_pass_var.get()
-        if entered_password == "admin123":  # ✅ Hardcoded for now
+        if entered_password == "admin":  # Hardcoded for now
             open_admin_window()
         else:
             messagebox.showerror("Access Denied", "Incorrect admin password.")
