@@ -250,7 +250,7 @@ class UserWindow:
 
     # -------------------- Transfer Placeholder --------------------
     def show_transfer(self):
-        from tkinter import ttk  # ensure ttk is imported
+        from tkinter import ttk
         self.clear_content()
         self.current_view = "transfer"
 
