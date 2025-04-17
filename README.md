@@ -2,7 +2,7 @@
 
 A banking software application built with Python and Tkinter for SE475 - Software Construction.
 
-## 🧾 Features
+## Features
 
 - Secure user login
 - View account details and transaction history
@@ -10,7 +10,7 @@ A banking software application built with Python and Tkinter for SE475 - Softwar
 - Transfer funds between accounts
 - GUI built with Tkinter
 
-## 📦 Requirements
+## Requirements
 
 - Python 3.10+
 - bcrypt (for password hashing)
